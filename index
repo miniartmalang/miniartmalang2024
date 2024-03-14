@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Art Malang 2024</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: ivory;
+            font-family: 'Montserrat', sans-serif;
+            color: #a03a80; /* soft magenta */
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #a03a80; /* soft magenta */
+            color: ivory;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #872a66; /* darker shade of magenta */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Mini Art Malang 2024</h1>
+    <p>Explore the world of artistry by our talented artists!</p>
+    <a href="artist_profile.html" class="button">Check Artist Profile</a>
+</body>
+</html>
